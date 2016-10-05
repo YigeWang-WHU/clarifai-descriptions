@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Algorithmic Gaze</title>
+  <meta charset="utf-8">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script type="text/javascript" src="keys.js"></script>
+  <script type="text/javascript" src="clarifai.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Algorithmic Gaze</h1>
+  <div>
+    <br/>
+    <input type="text" id="imgurl" placeholder= "Image URL" />
+    <button onclick="run(document.getElementById('imgurl').value)">Look at me</button>
+    <br/>
+  </div>
+  <br/>
+  <div id="poem"></div>
+</body>
+</html>
