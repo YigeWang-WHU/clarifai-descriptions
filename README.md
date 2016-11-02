@@ -1,1 +1,3 @@
-Get a poetic description of any image using the Clarifai API.
+#clarifai-descriptions
+
+Generates a poetic description of any image using machine learning and computer vision.
